@@ -1,22 +1,53 @@
-This app is for Qbex Student Registration app
+# Qbex Student Registration App Setup
 
-python -m venv venv
+## Setting Up the Virtual Environment
 
-cd venv
+1. Create a virtual environment:
+    ```bash
+    python -m venv venv
+    ```
 
-cd Scripts
+2. Navigate to the `venv` directory:
+    ```bash
+    cd venv
+    ```
 
-activate
+3. Navigate to the `Scripts` directory:
+    ```bash
+    cd Scripts
+    ```
 
-cd..
+4. Activate the virtual environment:
+    ```bash
+    activate
+    ```
 
-cd..
+5. Go back to the root directory:
+    ```bash
+    cd..
+    cd..
+    ```
 
-pip install flask
+## Installing Required Packages
 
-pip install pymongo
+1. Install Flask:
+    ```bash
+    pip install flask
+    ```
 
-pip install flask_cors
+2. Install PyMongo:
+    ```bash
+    pip install pymongo
+    ```
 
-python app.py
+3. Install Flask-CORS:
+    ```bash
+    pip install flask_cors
+    ```
 
+## Running the Application
+
+1. Run the application:
+    ```bash
+    python app.py
+    ```
